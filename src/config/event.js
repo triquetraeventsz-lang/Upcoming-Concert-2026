@@ -11,7 +11,7 @@ export const eventConfig = {
 
   signupEnabled: true,
 
-  // Waitlist ("Join the List") submissions are sent here via a mailto link.
+  // Waitlist ("Join the List") submissions are delivered here via Web3Forms.
   waitlistEmail: 'hello@triquetraevents.co.in',
 
   // Add real handles only once accounts exist for this campaign, e.g.:

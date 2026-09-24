@@ -22,13 +22,16 @@ export default function Footer() {
             <Mail className="h-4 w-4" />
             {eventConfig.contact.email}
           </a>
-          <a
-            href={`tel:${eventConfig.contact.phones[0].replace(/\s+/g, '')}`}
-            className="flex items-center gap-2 transition-colors hover:text-gold"
-          >
-            <Phone className="h-4 w-4" />
-            {eventConfig.contact.phones[0]}
-          </a>
+          {eventConfig.contact.phones.map((phone) => (
+            <a
+              key={phone}
+              href={`tel:${phone.replace(/\s+/g, '')}`}
+              className="flex items-center gap-2 transition-colors hover:text-gold"
+            >
+              <Phone className="h-4 w-4" />
+              {phone}
+            </a>
+          ))}
         </div>
 
         <p className="text-sm text-bone/60">&copy; {year} Triquetra Events. All rights reserved.</p>
