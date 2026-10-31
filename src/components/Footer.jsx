@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-line bg-void py-12">
       <div className="container-page flex flex-col items-center gap-6 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
-        <a href="#top" className="flex items-center gap-3" aria-label="Triquetra Events">
+        <a href="https://triquetraevents.co.in/" className="flex items-center gap-3" aria-label="Triquetra Events">
           <img src="/images/triquetra-logo.png" alt="Triquetra Events" className="h-8 w-8" />
           <span className="text-sm font-semibold tracking-[0.25em] text-bone/90 uppercase">
             Triquetra Events

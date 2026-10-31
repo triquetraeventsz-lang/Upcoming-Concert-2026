@@ -17,7 +17,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container-page flex h-20 items-center justify-between">
-        <a href="#top" className="flex items-center gap-3" aria-label="Triquetra Events">
+        <a href="https://triquetraevents.co.in/" className="flex items-center gap-3" aria-label="Triquetra Events">
           <img src="/images/triquetra-logo.png" alt="Triquetra Events" className="h-9 w-9" />
           <span className="hidden text-xs font-semibold tracking-[0.3em] text-bone/80 uppercase sm:inline">
             Triquetra Events
